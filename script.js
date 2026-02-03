@@ -1,11 +1,6 @@
-// =============================
-// UBAH TANGGAL ULANG TAHUN DI SINI
-// =============================
-const targetDate = new Date("2026-02-04T02:08:00");
 
-// =============================
-// PESAN UNTUK PACARMU
-// =============================
+const targetDate = new Date("2026-02-22T00:00:00");
+
 const messages = [
   {
     title: "Selamat Ulang Tahun",
@@ -111,4 +106,5 @@ function startCelebration() {
       setTimeout(() => heart.remove(), 6000);
     }, i * 200);
   }
+
 }
