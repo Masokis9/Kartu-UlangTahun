@@ -66,20 +66,11 @@ openBtn.addEventListener("click", () => {
 
 function showMessages() {
   messages.forEach((msg, i) => {
-    const card = document.createElement("div");
-    card.className = "message clickable";
-    card.style.animationDelay = `${i * 0.4}s`;
-
-    card.innerHTML = `
-      <div class="message-title">${msg.title}</div>
-      <div class="message-inner">${msg.inner}</div>
-    `;
-
-    card.addEventListener("click", () => {
-      card.classList.toggle("open");
-    });
-
-    reveal.appendChild(card);
+    const div = document.createElement("div");
+    div.className = "message";
+    div.style.animationDelay = `${i * 0.5}s`;
+    div.textContent = msg;
+    reveal.appendChild(div);
   });
 }
 
@@ -106,5 +97,4 @@ function startCelebration() {
       setTimeout(() => heart.remove(), 6000);
     }, i * 200);
   }
-
 }
