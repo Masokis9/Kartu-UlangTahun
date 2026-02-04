@@ -73,6 +73,38 @@ button {
 }
 
 .message {
+  cursor: pointer;
+}
+
+/* Title */
+.message-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #e7f3ef;
+}
+
+/* Hidden inner message */
+.message-inner {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #cfe3dc;
+  line-height: 1.5;
+  transition: all 0.4s ease;
+}
+
+/* When opened */
+.message.open .message-inner {
+  max-height: 200px;
+  opacity: 1;
+}
+
+/* Hover hint */
+.message:hover {
+  background: rgba(255,255,255,0.09);
+}
   background: rgba(255,255,255,0.05);
   padding: 15px;
   border-radius: 14px;
@@ -110,3 +142,4 @@ button {
     font-size: 22px;
   }
 }
+
