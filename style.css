@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #1f2d2a, #3a4f4b);
-  color: #f1f5f4;
+  background: linear-gradient(135deg, #e6efe9, #b7cfc4);
+  color: #1f2d2a;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -153,4 +153,5 @@ button:hover {
   .card {
     padding: 22px;
   }
+
 }
