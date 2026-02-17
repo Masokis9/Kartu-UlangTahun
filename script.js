@@ -1,10 +1,10 @@
 
-const targetDate = new Date("2026-02-17T15:21:00");
+const targetDate = new Date("2026-02-22T00:00:00");
 
 const messages = [
   {
     title: "Selamat Ulang Tahun",
-    inner: "Cie kepala dua koma satu. Makasi ya udah mau bersama aku."
+    inner: "Cie kepala dua,satu. Makasi ya mau jadi bagian paling berharga dalam hidupku."
   },
   {
     title: "Tentang Kamu",
@@ -107,5 +107,6 @@ function startCelebration() {
     }, i * 200);
   }
 }
+
 
 
