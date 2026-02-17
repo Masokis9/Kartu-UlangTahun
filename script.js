@@ -1,5 +1,5 @@
 
-const targetDate = new Date("2026-02-22T00:00:00");
+const targetDate = new Date("2026-02-17T15:21:00");
 
 const messages = [
   {
@@ -107,4 +107,5 @@ function startCelebration() {
     }, i * 200);
   }
 }
+
 
